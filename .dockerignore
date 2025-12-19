@@ -1,0 +1,38 @@
+# Version Control
+.git
+.gitignore
+
+# Python & Virtual Environments (CRITICAL to ignore)
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+churn-project/
+Lib/
+Scripts/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# MLflow Artifacts (Huge folders)
+# We ignore the main mlruns folder because we manually copy 
+# only the specific model files we need via 'model_build'
+mlruns/
+.trash/
+
+# Data Files
+# Never bake raw data into your API image
+data/
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Environment Variables (Security best practice)
+.env
+
+notebooks/
