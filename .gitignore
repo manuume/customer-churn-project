@@ -1,0 +1,19 @@
+# --- Python & Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+data/
+mlruns/
+.trash/
+
+.vscode/
+.idea/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
