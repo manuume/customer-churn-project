@@ -27,4 +27,5 @@ jobs:
           context: .
           file: ./Dockerfile  # Make sure your file is named 'Dockerfile' (Capital D)
           push: true
-          tags: manohar/telco-fastapi:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/telco-fastapi:latest
+        
